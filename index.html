@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Página Simples</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <main>
+    <header>
+      <h1 id="titulo-principal">Arthur H. S. Freitas</h1>
+    </header>
 
+    <section>
+      <p id="autobiografia">
+        Meu nome é Arthur Henrique, tenho 28 anos, moro em João Pessoa, sou Graduado em Direito e sou apaixonado por tecnologia, surfe e chimarrão.
+      </p>
+    </section>
+
+    <section>
+      <ul id="lista-hobbies">
+        <li>Eu amo Fotografar</li>
+        <li>Eu amo Surfar</li>
+        <li>Eu amo Tomar Ervamate</li>
+      </ul>
+    </section>
+
+    <section>
+      <img 
+        src="http://bombasfama.com.br/wp-content/uploads/2017/03/p-texto-Matear-faz-bem-confira-os-benef%C3%ADcios-do-chimarr%C3%A3o-para-a-sa%C3%BAde.jpg" 
+        alt="Imagem representando o hobby de tomar chimarrão" 
+        width="400"
+        id="imagem-hobby" />
+    </section>
+
+    <section>
+      <button id="botao-mensagem" onclick="mostrarMensagem()">
+        Clique para ver uma mensagem!
+      </button>
+      <p id="mensagem"></p>
+    </section>
+
+    <section>
+      <h2>Países que gostaria de visitar</h2>
+      <table id="tabela-paises">
+        <thead>
+          <tr>
+            <th>País</th>
+            <th>Bandeira</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Japão</td>
+            <td><img src="https://flagcdn.com/w320/jp.png" alt="Bandeira do Japão" width="100"/></td>
+          </tr>
+          <tr>
+            <td>Nova Zelândia</td>
+            <td><img src="https://flagcdn.com/w320/nz.png" alt="Bandeira da Nova Zelândia" width="100"/></td>
+          </tr>
+          <tr>
+            <td>Canadá</td>
+            <td><img src="https://flagcdn.com/w320/ca.png" alt="Bandeira do Canadá" width="100"/></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <footer>
+      <a href="https://www.tecmundo.com.br" target="_blank" id="link-favorito">
+        Visite o Tecmundo
+      </a>
+    </footer>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
