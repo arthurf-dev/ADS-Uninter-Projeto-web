@@ -1,1 +1,58 @@
+/* --- Estilo Geral do Site --- */
+body {
+  background-color: #dff5ff; /* Tom suave de azul */
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
 
+/* --- Título --- */
+h1 {
+  text-align: center;
+  color: #2a4d69;
+}
+
+/* --- Parágrafos --- */
+p {
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+/* --- Lista de Hobbies --- */
+ul {
+  margin-top: 15px;
+  line-height: 1.8em;
+}
+
+/* --- Imagem do Hobby --- */
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* --- Tabela de Países --- */
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table, th, td {
+  border: 1px solid #2a4d69;
+  padding: 10px;
+}
+
+/* --- Link Favorito --- */
+a {
+  display: inline-block;
+  margin-top: 15px;
+  color: #1c87c9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff6347;
+}
